@@ -12,6 +12,7 @@
     'libs/min/jquery.js', // jquery
     'libs/min/angular.js', // angular.js
     'libs/min/ui-router.js', // 路由
+    'libs/min/image2D.js', // 绘图库
 
     /* 配置文件 */
     'libs/config.js', // 项目配置文件

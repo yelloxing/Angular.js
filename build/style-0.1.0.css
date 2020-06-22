@@ -1,4 +1,4 @@
-/*! angularjs-prototype V0.1.1 | (c) 2020 yelloxing*/
+/*! angularjs-prototype V0.1.0 | (c) 2020 yelloxing*/
 /*!
 * 统一不同浏览器的基础样式
 * git+https://github.com/yelloxing/normalize.css.git
@@ -65,8 +65,7 @@ svg {
   统一不同浏览器盒子尺寸计算方法
   ------------------
   */
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 ::-ms-clear,

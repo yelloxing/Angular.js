@@ -31,11 +31,11 @@ module.exports = function (grunt) {
             },
             targetJs: {
                 src: sourceScript,
-                dest: 'build/lib.js'
+                dest: 'build/lib-<%= pkg.version %>.js'
             },
             targetCss: {
                 src: sourceStyle,
-                dest: 'build/style.css'
+                dest: 'build/style-<%= pkg.version %>.css'
             }
         },
 
@@ -59,7 +59,7 @@ module.exports = function (grunt) {
                     mangle: true
                 },
                 files: [{
-                    'build/lib.min.js': ['build/lib.js']
+                    'build/lib-<%= pkg.version %>.min.js': ['build/lib-<%= pkg.version %>.js']
                 }]
             }
         },
@@ -72,8 +72,8 @@ module.exports = function (grunt) {
                 ]
             },
             target: {
-                src: 'build/style.css',
-                dest: 'build/style.postcss.css'
+                src: 'build/style-<%= pkg.version %>.css',
+                dest: 'build/style-<%= pkg.version %>.postcss.css'
             }
         },
 
@@ -93,7 +93,7 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'build/style.min.css': ['build/style.postcss.css']
+                    'build/style-<%= pkg.version %>.min.css': ['build/style-<%= pkg.version %>.postcss.css']
                 }
             }
         },
@@ -104,7 +104,7 @@ module.exports = function (grunt) {
                 options: {
                     port: 20000,
                     base: './',
-                    open: true,
+                    open: false,
                     keepalive: true,
                     hostname: 'localhost'
                 }
