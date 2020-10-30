@@ -1,9 +1,5 @@
 # Angular.js
 
-## 贡献者
-
-- [心叶](https://github.com/yelloxing)（yelloxing@gmail.com）
-
 ## 项目说明
 
 首先看看目录结构：
