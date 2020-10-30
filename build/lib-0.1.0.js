@@ -1,4 +1,4 @@
-/*! angularjs-prototype V0.1.0 | (c) 2020 yelloxing*/
+/*! angular.js V0.1.0 | (c) 2020 yelloxing*/
 /*!
  * jQuery JavaScript Library v3.1.1
  * https://jquery.com/

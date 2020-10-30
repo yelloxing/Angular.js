@@ -1,5 +1,5 @@
 {
-  "name": "angularjs-prototype",
+  "name": "angular.js",
   "version": "0.1.0",
   "description": "🎯 基于Angular JS搭建的原型项目。",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AC-angle/AngularJS-prototype.git"
+    "url": "git+https://github.com/yelloxing/Angular.js.git"
   },
   "keywords": [
     "grunt",
@@ -20,9 +20,9 @@
   "author": "yelloxing",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AC-angle/AngularJS-prototype/issues"
+    "url": "https://github.com/yelloxing/Angular.js/issues"
   },
-  "homepage": "https://github.com/AC-angle/AngularJS-prototype#readme",
+  "homepage": "https://github.com/yelloxing/Angular.js#readme",
   "devDependencies": {
     "autoprefixer": "^7.2.5",
     "cuf": "^1.2.0",

@@ -1,5 +1,4 @@
-# AngularJS 原型
-🎯 基于Angular JS搭建的原型项目。
+# Angular.js
 
 ## 贡献者
 
@@ -42,6 +41,6 @@
 
 ## License
 
-[MIT](https://github.com/AC-angle/AngularJS-prototype/blob/master/LICENSE)
+[MIT](https://github.com/yelloxing/Angular.js/blob/master/LICENSE)
 
-Copyright (c) 2020 AC-angle
+Copyright (c) 2020 心叶
