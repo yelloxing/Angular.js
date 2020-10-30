@@ -1,7 +1,7 @@
 {
   "name": "angular.js",
-  "version": "0.1.0",
-  "description": "🎯 基于Angular JS搭建的原型项目。",
+  "version": "0.0.0",
+  "description": "🎯 Angular.js项目",
   "scripts": {
     "start": "npm install && npm run dev",
     "clean": "cuf -d build",
